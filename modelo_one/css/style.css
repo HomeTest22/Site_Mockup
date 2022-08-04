@@ -1,7 +1,8 @@
 /* =================================
 ------------------------------------
-  Game Warrior Template
+  Template Home Tech 2022
   Version: 1.0
+  Versão adaptada
  ------------------------------------ 
  ====================================*/
 
@@ -11,10 +12,13 @@
 
 html,
 body {
+	max-width: 720px;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: antialiased;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1,
@@ -102,7 +106,6 @@ ol {
 }
 
 .spad {
-	padding-top: 97px;
 	padding-bottom: 97px;
 }
 
@@ -424,11 +427,12 @@ ol {
 	top: 0;
 	text-align: right;
 	padding-top: 24px;
-	padding-right: 66px;
+	padding-right: 30px;
+	padding-left: 10px;
 	font-size: 18px;
 	font-weight: 500;
 	color: #fff;
-	background: #ffb320;
+	background: #2f20ff;
 	z-index: 1;
 }
 
